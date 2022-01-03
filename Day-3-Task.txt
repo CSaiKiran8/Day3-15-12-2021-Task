@@ -1,0 +1,124 @@
+1Q)For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+Code:-
+
+var obj = [
+    {
+        person:"SaiKiran",
+        age:20,
+        company:"Guvi"
+    },
+    {
+        person:"Vijay",
+        age:30,
+        company:"Guvi Geek Network"
+    },
+    {
+        person:"Vineeth",
+        age:35  ,
+        company:"Guvi Geek"
+    }
+]
+
+Answer:-
+
+// for loop
+for(var i=0; i<obj.length; i++){
+    console.log(obj[i]);
+}
+
+// for in loop
+for(var index in obj){
+    console.log(obj[index]);
+}
+
+// for of loop
+for(var value of obj){
+    console.log(value);
+}
+
+// forEach loop
+obj.forEach((data) => {
+    console.log(data);
+});
+________________________________________
+2Q)Create your own resume data in JSON format
+
+Code:-
+
+var obj1 = {
+    Name: "CHATLAPALLI  SAI  KIRAN",
+    Emailid: "saikiran@gmail.com",
+    ContactNum: 8374242180,
+    Objective: "To work for an organization where I can efficiently apply my skills \
+                and abilitiesto gain experience  which helps me in building my professional career \
+                and also the growth of organization",
+    Education: [
+        {
+            education: "Bachelor of Technology(IT)",
+            college: "CVR College Of Engineering and Technology,Hyderabad",
+            boardofuniversity: "JNTU, Hyderabad",
+            academicyear: 2014-2018,
+            percentage: "60%"
+        },
+        {
+            education: "Intermediate(M.P.C)",
+            college: "Narayana Junior College, Hyderabad",
+            boardofuniversity: "Board of Intermediate Education, AP",
+            academicyear: 2012-2014,
+            percentage: "86.4%"
+        },
+        {
+            education: "Secondary School Education",
+            school: "Vamakshi Vidyaniketanam High School",
+            boardofuniversity: "JNTU, Hyderabad",
+            academicyear: 2011-2012,
+            percentage: "8.5 GPA"
+        },
+    ],
+    TechnicalSkills: { SoftwareLanguages: "Java" },
+    MajorProject: [
+        {
+            Title: "ANALYSIS OF USERS BEHAVIOUR IN STRUCTURED E-COMMERCE  WEBSITE"
+        },
+        {
+            Description: "The aim of the project is to store the user information in the web server logs. \
+                          Thisproject involves the understanding users interests and behavior essential in \
+                          order to adapt e-commerce websites to customers requirements. By defining a common \
+                          way of mapping log records according to the e-commerce structure,weblogs canbe easily \
+                          converted into event logs where the behavior of users is captured."	
+        }
+    ],
+    Achievements: [
+        "I stood first in Talent tests conducted in my school days.",
+	    "Participated in College level competitions.",
+	    "Won many trophies in state and college level cricket tournament"
+    ],
+    Skills: [
+        "Hardworking",
+    	"Optimistic",
+    	"Good analyzing skills and quick learner.",
+    	"Good Communication Skills.",
+    	"Ability to work in different situations.",
+    	"Eager to learn new technologies and methodologies"
+    ],
+    Hobbies: [
+        "Playing Cricket",
+        "Gardening"
+    ],
+    PersonalDetails: {
+            FathersName: "Chatlapalli Yadagiri",
+            MothersName: "Chatlapalli Girija",
+            DateOfBirth: "08-11-1996",
+            Gender: "Male",
+            PermanentAddress: "2-1-559/1,New Nallakunta,Hyderabad.",
+            LanguagesKnown: "English,Hindi and Telugu",
+            AlternatePhoneNumber: 8977269346,
+        },
+    Declaration: "I hear by declare that, the above-furnished details are true and best of my knowledge."  
+
+}
+__________________________________________
+3)Read about the difference between window, screen and document in javascript
+
+4)Codekata practice.
